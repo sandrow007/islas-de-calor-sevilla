@@ -555,6 +555,22 @@ body {
   text-align: center
 }
 
+.manolito-aire-widget iframe {
+  display: block;
+  max-width: 100%;
+}
+
+.manolito-aire-widget a {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--qc);
+  text-decoration: none;
+}
+
+.manolito-aire-widget a:hover {
+  text-decoration: underline;
+}
+
 /* ===========================================================
    MODULE: Data Items
    =========================================================== */
